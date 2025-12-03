@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1764742818 source:c:\users\admin\desktop\sem-iv\daa-lab\ex-1\pg-1\main.c
+	<stdio.h>
+	<stdlib.h>
+
