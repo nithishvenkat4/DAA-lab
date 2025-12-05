@@ -1,6 +1,21 @@
+# Ignore build and IDE files
 bin/
 obj/
 *.exe
 *.o
-*.cbp
 *.depend
+*.cbp
+*.layout
+*.out
+*.dll
+*.class
+*.log
+
+# Ignore CodeBlocks-specific
+*.layout
+*.depend
+*.obj
+
+# Ignore temporary files
+*.tmp
+*.cache
