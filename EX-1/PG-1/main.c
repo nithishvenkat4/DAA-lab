@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+//linear and binary search
 //regular iterative linear search
 int linear_search(int n,int target,int arr[]){
 
@@ -106,7 +106,7 @@ void bubble_sort(int n ,int arr[],int target){
     printf("\n Search by Recursive Binary Search :");
     //time calculation
     clock_t start_bsr = clock();
-    int solution2=binary_search_rec(arr,target,0,n-1);  
+    int solution2=binary_search_rec(arr,target,0,n-1);
     clock_t end_bsr = clock();
 
     double time_bsr = (double)(end_bsr-start_bsr)/CLOCKS_PER_SEC;
@@ -138,7 +138,7 @@ int main()
 
     printf("\n Search by Iterative Linear Search :");
 
-    //iterative linear search 
+    //iterative linear search
     //time cal
     clock_t start_lsi = clock();
     int solution1=linear_search(n,target,arr);
@@ -159,7 +159,7 @@ int main()
     int solution2=linear_search_rec(n,target,arr,0);
     clock_t end_lsr = clock();
 
-    
+
     double time_lsr = (double)(end_lsr-start_lsr);
     printf("\nTime Taken By Iterative Linear Search is %f",time_lsr);
 
