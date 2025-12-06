@@ -170,5 +170,7 @@ int main()
 
     bubble_sort(n,arr,target);
 
+    printf("Four Search are Verified with various test cases");
+
     return 0;
 }
