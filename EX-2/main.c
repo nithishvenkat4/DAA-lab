@@ -9,6 +9,7 @@ for(int i=0;i<n;i++){
 }
 printf("\n");
 }
+
 //BUBBLE SORT
 void bubble_sort(int arr[],int n){
 
