@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//sorting analysis
 //Array Display Function
 void display(int arr[],int n){
     printf("\n");
