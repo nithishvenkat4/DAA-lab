@@ -15,11 +15,13 @@ int subset_sum(int arr[], int n, int i, int current_sum, int target, int path[],
         return 0;
     }
 
+    // Include element
     path[path_index] = arr[i];
     if (subset_sum(arr, n, i + 1, current_sum + arr[i], target, path, path_index + 1)) {
         return 1;
     }
 
+    // Exclude element
     if (subset_sum(arr, n, i + 1, current_sum, target, path, path_index)) {
         return 1;
     }
